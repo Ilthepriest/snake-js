@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.div-score{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around
+}
+
+h1, p{
+    color: white;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    width: 800px;
+   
+}
+
+.cell{
+    height: 18px;
+    width: 18px;
+    background-color: whitesmoke;
+    border: 1px solid transparent ;
+    color: black;
+}
+
+.head{
+    height: 18px;
+    height: 18px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.snake{
+    height: 18px;
+    height: 18px;
+    background-color: lime !important;
+    border: 1px solid black;
+}
+
+.frutto{
+    height: 18px;
+    height: 18px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+
